@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{8EA1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeCoreAngularFront.Application", "..\NeCoreAngularFront.Application\NeCoreAngularFront.Application.csproj", "{71DCDFA8-1069-4468-9A6D-79E1027C5942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeCoreAngularFront.Domain", "..\NeCoreAngularFront.Domain\NeCoreAngularFront.Domain.csproj", "{87DB5A9D-6E73-4ACB-9354-074B621FB2DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeCoreAngular.Domain", "..\NeCoreAngularFront.Domain\NeCoreAngular.Domain.csproj", "{87DB5A9D-6E73-4ACB-9354-074B621FB2DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{630EDB3E-B800-4256-A8B2-3E34CE221D3D}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{A50B526E-528E-44C2-92AB-1B2FBBECE5A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{6908A63C-0306-4AAD-A0A2-716FD61EBBB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeCoreAngular.Data", "..\NeCoreAngular.Data\NeCoreAngular.Data.csproj", "{28E66D3D-0CF4-410F-AA51-08D85F82FDC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{87DB5A9D-6E73-4ACB-9354-074B621FB2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DB5A9D-6E73-4ACB-9354-074B621FB2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DB5A9D-6E73-4ACB-9354-074B621FB2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E66D3D-0CF4-410F-AA51-08D85F82FDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E66D3D-0CF4-410F-AA51-08D85F82FDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E66D3D-0CF4-410F-AA51-08D85F82FDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E66D3D-0CF4-410F-AA51-08D85F82FDC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{7F91AE07-968A-4DAF-B8BD-782D58A12F8B} = {630EDB3E-B800-4256-A8B2-3E34CE221D3D}
 		{A50B526E-528E-44C2-92AB-1B2FBBECE5A4} = {630EDB3E-B800-4256-A8B2-3E34CE221D3D}
 		{6908A63C-0306-4AAD-A0A2-716FD61EBBB8} = {630EDB3E-B800-4256-A8B2-3E34CE221D3D}
+		{28E66D3D-0CF4-410F-AA51-08D85F82FDC4} = {630EDB3E-B800-4256-A8B2-3E34CE221D3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D3E04CF-E9CA-45A7-88C9-338F162E7792}
